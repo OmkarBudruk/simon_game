@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    z-index: -1;
+}
+.btn{
+    height:200px;
+    width:200px;
+    border-radius: 20%; 
+    border: 10px solid black;
+    margin:2rem;
+}   
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color:red;
+}
+.pink{
+    background-color:rgb(255, 76, 106);
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color:black;
+}
+body{
+    z-index: 2; 
+    height: 100%;
+    width:100vw;
+    background: linear-gradient(to right, #04d2f7,#f03efa);
+}
